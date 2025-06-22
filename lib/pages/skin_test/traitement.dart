@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import '../../widgets/gradient_button.dart';
 import '../../utils/i18n/app_localizations.dart';
 import '../../utils/size_manager.dart';
