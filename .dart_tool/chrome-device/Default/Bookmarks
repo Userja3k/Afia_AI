@@ -1,0 +1,419 @@
+{
+   "checksum": "ad3993b8e0df4bb9c2926c438c09c0d7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13360342830301984",
+            "date_last_used": "0",
+            "guid": "06391083-6165-4564-b36c-c3e5766288d2",
+            "id": "23",
+            "name": "New tab",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "edge://newtab/",
+            "visit_count": 0
+         }, {
+            "date_added": "13361890017905587",
+            "date_last_used": "13388151577202847",
+            "guid": "59bbbf80-8520-4406-8471-8111cf3dce81",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Suno",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://suno.com/create",
+            "visit_count": 2
+         }, {
+            "date_added": "13362005653654420",
+            "date_last_used": "0",
+            "guid": "74c5e11e-2f2d-4959-a0d3-951c22694cef",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "5 exercices pour des obliques puissants et définis",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.msn.com/fr-xl/sante/other/5-exercices-pour-des-obliques-puissants-et-d%C3%A9finis/ar-BB1mCS3m?ocid=msedgntp&pc=U531&cvid=2b0d8e34593f4c3696ece8a38679b89c&ei=13",
+            "visit_count": 0
+         }, {
+            "date_added": "13362005660457645",
+            "date_last_used": "0",
+            "guid": "2d77a1ad-a16b-4c85-9ce9-59df7252b036",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Renforcez votre dos : 5 exercices les plus efficaces",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.msn.com/fr-xl/sante/other/renforcez-votre-dos-5-exercices-les-plus-efficaces/ar-BB1lWZnX?ocid=msedgdhp&pc=U531&cvid=a728dadc4fc647419b95e2747094c466&ei=10",
+            "visit_count": 0
+         }, {
+            "date_added": "13362046286943320",
+            "date_last_used": "0",
+            "guid": "e6e98b16-d234-4e00-904c-a63a3756665c",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Microsoft Rewards",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://rewards.bing.com/?pin=true&form=ML2BFG&OCID=ML2BFG&PUBL=RewardsDO&CREA=ML2BFG",
+            "visit_count": 0
+         }, {
+            "date_added": "13362049570834250",
+            "date_last_used": "0",
+            "guid": "1b784208-6148-46e3-a9d4-febf9be76185",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MSN",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.msn.com/fr-xl/sante/other/fessiers-fermes-rapide-et-facile-les-techniques-qui-marchent-vraiment/ar-AA1nLYaE",
+            "visit_count": 0
+         }, {
+            "date_added": "13362949289967504",
+            "date_last_used": "0",
+            "guid": "949561a6-2c59-483f-9812-5eb4eb71dc49",
+            "id": "29",
+            "name": "Nouvel onglet",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "edge://newtab/",
+            "visit_count": 0
+         }, {
+            "date_added": "13363781368233838",
+            "date_last_used": "0",
+            "guid": "98581b6a-46f0-48a5-ab30-f0cfe4f0c968",
+            "id": "30",
+            "name": "Download this awesome wallpaper - Wallpaper Cave",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://wallpapercave.com/w/wp6956942",
+            "visit_count": 0
+         }, {
+            "date_added": "13375117163163913",
+            "date_last_used": "0",
+            "guid": "bc3e997c-5f86-4fce-a0a6-dc81c69dde53",
+            "id": "31",
+            "name": "Chat Blackbox: AI Code Generation, Code Chat, Code Search",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.blackbox.ai/",
+            "visit_count": 0
+         }, {
+            "date_added": "13375185285544578",
+            "date_last_used": "0",
+            "guid": "bbdfd5e5-3d4a-487e-84b6-f33c213d1a87",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "BLACKBOXAI",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.robocoders.ai/",
+            "visit_count": 1
+         }, {
+            "date_added": "13384593863897037",
+            "date_last_used": "0",
+            "guid": "e0a34909-2242-4fef-83d2-ac55f5026e08",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "API keys - OpenAI API",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://platform.openai.com/api-keys",
+            "visit_count": 1
+         }, {
+            "date_added": "13386714314725762",
+            "date_last_used": "0",
+            "guid": "eaaf91a3-c9a8-4e7f-a7b9-47e5f1df3d83",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Connectez-vous à votre compte Wix - Wix.com",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://users.wix.com/signin?referralInfo=wix_homepage_hero_section_get_started&loginCompName=wix_homepage_hero_section_get_started&postSignUp=https%3A%2F%2Fwww.wix.com%2Fnew%2Fintro&postLogin=https%3A%2F%2Fmanage.wix.com%2Faccount%2Fsites&overrideLocale=&loginDialogContext=forgot-password&originUrl=https%3A%2F%2Fwww.wix.com&forceRender=true",
+            "visit_count": 1
+         }, {
+            "date_added": "13386716702436906",
+            "date_last_used": "0",
+            "guid": "07c754cb-df7c-4073-9280-2fc894f7f848",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Éditeur Wix | Impact Eco Group",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://editor.wix.com/html/editor/web/renderer/edit/2d98d892-5181-4372-bc7b-ec6e656136f0?metaSiteId=3034739a-c146-43f2-aa8a-fc6e59d51f7c&editorSessionId=8f4357af-4c55-44f0-a3fe-a767831901ce",
+            "visit_count": 1
+         }, {
+            "date_added": "13387275108868366",
+            "date_last_used": "0",
+            "guid": "38f55d16-292a-418c-845f-d65d05eff2f7",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "bolt.new",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://bolt.new/~/sb1-j3zrgbff",
+            "visit_count": 1
+         }, {
+            "date_added": "13389220710289311",
+            "date_last_used": "0",
+            "guid": "605eccb3-d859-4b45-978b-ee56141c036b",
+            "id": "37",
+            "name": "AI Voice Studio | Convert a voice with Kits.AI",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://app.kits.ai/studio?vmId=1721210&projectId=901498",
+            "visit_count": 1
+         } ],
+         "date_added": "13394226255162758",
+         "date_last_used": "0",
+         "date_modified": "13389220710289311",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barre des favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13359320019719356",
+            "date_last_used": "0",
+            "guid": "79d0b28a-1d47-401b-a680-5498cb6b354d",
+            "id": "6",
+            "name": "chrome://settings/searchEngines",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "chrome://settings/searchEngines",
+            "visit_count": 0
+         }, {
+            "children": [ {
+               "date_added": "13335347507000000",
+               "date_last_used": "0",
+               "guid": "4121742b-73db-455c-9918-66c4337915d9",
+               "id": "8",
+               "name": "TuneCore Sign Up - Register as a TuneCore Artist | TuneCore | TuneCore",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://web.tunecore.com/signup",
+               "visit_count": 0
+            }, {
+               "date_added": "13360668133000000",
+               "date_last_used": "0",
+               "guid": "47334205-d495-4f8a-abc3-ba53a023a4b2",
+               "id": "9",
+               "name": "ChatGPT",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://auth0.openai.com/authorize?scope=openid%20email%20profile%20offline_access%20model.request%20model.read%20organization.read%20organization.write&connection=&audience=https%3A%2F%2Fapi.openai.com%2Fv1&prompt=login&android_device_id=60375722-bfcf-47f9-b7c3-2a7d62052314&preauth_cookie_failed=service%20-8%20&response_type=code&code_challenge=ABGg4xQa-cR2jXaOx8mh06fbkk3rYMSsNiF9TP4OdUY&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiQXV0aDAuQW5kcm9pZCIsImVudiI6eyJhbmRyb2lkIjoiMzEifSwidmVyc2lvbiI6IjIuMTAuMiJ9&client_id=dBPYPHX8xGTuepNhXZJCycwsystDsw7Y&redirect_uri=com.openai.chatgpt%3A%2F%2Fauth0.openai.com%2Fandroid%2Fcom.openai.chatgpt%2Fcallback&state=xaxWV95MqXU84cxqMx0y8jRtszce5_BX2_jSg2qPbQc&nonce=Mxg__IohgWjxoJBWfDq51q2ASY9wDHHK9ZWqXryE8Xk",
+               "visit_count": 0
+            }, {
+               "date_added": "13378977708000000",
+               "date_last_used": "0",
+               "guid": "8158b12d-b08c-4e1f-8b3e-7f44f7a973de",
+               "id": "10",
+               "name": "Download ReFX Nexus v1.4.1 Mac OSX Content + Official Banks + Skins",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://oceanofdmg.com/download-refx-nexus-v1-4-1-mac-osx-content-official-banks-skins-29197700263/",
+               "visit_count": 0
+            }, {
+               "date_added": "13379066512000000",
+               "date_last_used": "0",
+               "guid": "830386f9-dc35-4cca-86b0-db18c4f1c532",
+               "id": "11",
+               "name": "Distribution Digitale Gratuite - Distribuez Votre Musique Gratuitement | FreeMusicDistrib",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.freemusicdistrib.com/fr/?gad_source=1&gclid=CjwKCAiAgoq7BhBxEiwAVcW0LHPMCPklqppHr-K5Uwh0UXpx_b1qCvxOuR-SygRH0Fa4HenKXzvU6BoCspgQAvD_BwE",
+               "visit_count": 0
+            }, {
+               "date_added": "13380308018000000",
+               "date_last_used": "0",
+               "guid": "edb4527c-733f-462d-a64d-9bef56209bd6",
+               "id": "12",
+               "name": "https://www.udio.com/?utm_source=fb&utm_medium=Facebook_Mobile_Feed&utm_campaign=Udio+-+Prospecting_Prospecting+-+Broad&utm_content=Image+Carousel+V3&fbclid=IwZXh0bgNhZW0BMABhZGlkAasWnflFYnkBHXJ4S3PJwsgiNodfHLhxMt1nc3hMazxbdoGcRxf2GdZi8rUfoQzNqg1hiA_aem_61O7CCXHSeEUCIVk1Mi3iw",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.udio.com/?utm_source=fb&utm_medium=Facebook_Mobile_Feed&utm_campaign=Udio+-+Prospecting_Prospecting+-+Broad&utm_content=Image+Carousel+V3&fbclid=IwZXh0bgNhZW0BMABhZGlkAasWnflFYnkBHXJ4S3PJwsgiNodfHLhxMt1nc3hMazxbdoGcRxf2GdZi8rUfoQzNqg1hiA_aem_61O7CCXHSeEUCIVk1Mi3iw",
+               "visit_count": 0
+            }, {
+               "date_added": "13380392419000000",
+               "date_last_used": "0",
+               "guid": "2a3b4989-8f85-4963-8c62-fa3350713917",
+               "id": "13",
+               "name": "Kits IA - Outils de musique IA de qualité studio",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.kits.ai/fr/?utm_source=fb&utm_medium=paid&utm_campaign=120212411213120087&utm_content=Facebook_Mobile_Feed-120212411213250087&fbclid=IwZXh0bgNhZW0BMABhZGlkAasUxNiwetcBHdKu9PRLuNP4sJMRk7ovcTRms8iwqL6E8LqUGf7C5rUXvrX91tPHzluceQ_aem_eqKjYh6WQROAOtfRRPg5QQ&utm_id=120212411213120087&utm_term=120212411213140087",
+               "visit_count": 0
+            }, {
+               "date_added": "13381003369000000",
+               "date_last_used": "0",
+               "guid": "1eb3c2c0-a01d-4e79-b636-2945a5a2b49b",
+               "id": "14",
+               "name": "HitCraft",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://hitcraft.ai/?fbclid=PAZXh0bgNhZW0BMABhZGlkAasWO35t2-IBpnmxEnuI-OisGlBj77cKX4DY-Mp1zOmDuJy3_xEA37lDvG0KInbZSotqIg_aem_ot7vNbUsqXdLYoVqJH7DzQ",
+               "visit_count": 0
+            }, {
+               "date_added": "13381618581000000",
+               "date_last_used": "0",
+               "guid": "821517e9-dd64-40bd-9a05-4057e6eb26e8",
+               "id": "15",
+               "name": "Cerebrum IQ Test Online: Discover Your True Intelligence",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://cerebrumiq.com/start?promo=true&utm_source=Facebook&utm_medium=cpc&utm_campaign=TIR3_Dance_long9_08.11+-+PROMO&utm_campaign_id=120212344139350730&utm_adgroup=TIR3_Dance_long9_08.11+-+Promo&utm_adgroup_id=120212344139340730&utm_content=TIR3_Dance_long9_v3+-+Promo&utm_content_id=120212344139360730&placement=Facebook_Mobile_Feed&site_source_name=fb&fbclid=IwZXh0bgNhZW0BMABhZGlkAasV2E1B2moBHZLKk5JjiKTMygXX7OOA8wtyaZme5xxMF1GTcfaqF_jr-FWmy5glbcLRrg_aem_Yu6v1zV-pCcuX9cMtPmP5A",
+               "visit_count": 0
+            }, {
+               "date_added": "13389218876000000",
+               "date_last_used": "0",
+               "guid": "e8f8be06-b858-49f0-9a9f-af15e3a13b21",
+               "id": "16",
+               "name": "AI Voice Studio | Convert a voice with Kits.AI",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://app.kits.ai/studio",
+               "visit_count": 0
+            }, {
+               "date_added": "13389395553000000",
+               "date_last_used": "0",
+               "guid": "1152885f-deb5-407f-bf42-4cd2b6af608d",
+               "id": "17",
+               "name": "Qt Designer Download for Windows and Mac",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://build-system.fman.io/qt-designer-download",
+               "visit_count": 0
+            } ],
+            "date_added": "13393494237454626",
+            "date_last_used": "0",
+            "date_modified": "13393494237454626",
+            "guid": "04922ae7-fe8c-4c74-ac2d-a67998ffe721",
+            "id": "7",
+            "name": "Synced Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13393494237459330",
+            "date_last_used": "0",
+            "date_modified": "13393494237459330",
+            "guid": "a444d3ed-0204-4903-ad15-215a95f0f0e9",
+            "id": "18",
+            "name": "Bookmark Bar",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13393606812835908",
+               "date_last_used": "0",
+               "guid": "dd1d1f9f-e204-4397-84dc-33876fd88265",
+               "id": "20",
+               "name": "Devpost",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://devpost.com/submit-to/24786-world-s-largest-hackathon-presented-by-bolt/manage/submissions/689499-educonnect/project_details/edit",
+               "visit_count": 1
+            }, {
+               "date_added": "13393658301256639",
+               "date_last_used": "0",
+               "guid": "10e5907f-15b2-407b-b801-e1b61c200bb6",
+               "id": "21",
+               "name": "Supabase Docs",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://supabase.com/docs",
+               "visit_count": 1
+            }, {
+               "date_added": "13393664382918347",
+               "date_last_used": "0",
+               "guid": "4c3b1cbf-cea6-4de7-a65b-484a5ddcdfcc",
+               "id": "22",
+               "name": "Flutter | In-App Subscriptions Made Easy – RevenueCat",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.revenuecat.com/docs/getting-started/installation/flutter",
+               "visit_count": 1
+            } ],
+            "date_added": "13393494237459504",
+            "date_last_used": "0",
+            "date_modified": "13393664382918347",
+            "guid": "5289c789-215a-4a8b-8d39-cad1366295c5",
+            "id": "19",
+            "name": "Other Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13394226255162762",
+         "date_last_used": "0",
+         "date_modified": "13359320019719356",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Autres favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13394226255162766",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoris de l’appareil mobile",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCPw+5UOXAQAAEgAqGHdZcWxvNFB0cmhsbFNEMnM5bVE5S2c9PUgDoAYHEq4BCCUSqQEKHFE1Tk05d24rMUtIWUN6MUEvUGtpRnJ5My9JWT0SJDYwNWVjY2IzLWQ4NTktNGI0NS05NzhiLWVlNTYxNDFjMDM2YhgAIAAoADCm86DY4zI4n/ag2OMyQJ/2oNjjMkocWkxseHZ2UjZwbEdNaEh4V1FIVEFSSUN4MjVZPVogIh7/+25qOUxWOVpjUE5tWWlFSzdIVlk0TTQ3MzI4UT1lKlL5DMI+AmAFEq4BCCQSqQEKHGxUN1U0ZXdSdDF5bW83RjZCeStoYXNETnJOdz0SJDM4ZjU1ZDE2LTI5MmEtNDE4Yy04NDVmLWQ2NWQwNWVmZjJmNxgAIAAoADDtxsK43DI4kcjCuNwyQJHIwrjcMkocSWNDdzdlYnAvN2ZUbDlLTkdCQkdNOE16b0prPVogIh7/9lJxZGJnRnd5ZmxsQjRDUExkQXlEM2ExcHNXND1l4KrMq8I+AmAFEq4BCCESqQEKHEtSNWY3c1BxdW8xTE9ZVENRMm00Q01NRktnND0SJGUwYTM0OTA5LTIyNDItNGZlZi04M2QyLWFjNTVmNTAyNmUwOBgAIAAoADCVhoG60jI47YeButIyQO2HgbrSMkocbTlCV1ltaXBpYkVCYTM0YVl2eW5zaG9IM1J3PVogIh7/sTFqcFdBTkhDZ3E5UXU2QkpWV2Nxd09FTytXND1lq9ZjH8I+AmAFEq0BCBsSqAEKHHZyelNSZU00MlcyM3RGaEdvQjJlb3B2MXdjdz0SJGU2ZTk4YjE2LWQyMzQtNGUwMC05MDRjLWE2M2EzNzU2NjY1YxgAIAAoADCgg/r1hDI4mKiGt/4xQJiohrf+MUocK1hUWlU2TUVnRVltUFdqWFJpajdab0xxUVZjPVofIh3sOCs4WjJpMU1mdUZSNVBxTU1Db25INEJJVkUwPWVBWaFmwj4CYAUSrQEIGhKoAQocVkNHa2lVT2x4ZEZtTEY2cnZmNE05WDhiM1JjPRIkMmQ3N2ExYWQtYTE2Yi00Yzg1LTljZTktNTlkZjcyNTJiMDM2GAAgACgAMKaD+vWEMji639aj/jFAut/Wo/4xShx5dzVaTklFMUdsNmp1TlNSL2pkUWpWL2dxWlE9Wh8iHdl3UDVmMFNCb2pzRnI5UWtoZEJvMkhMYUNsdlk9ZcEXakXCPgJgBRKuAQgiEqkBChxYRXRCeFBQZHcrcUpNMFlNYTNmT1BCWC9rMGc9EiRlYWFmOTFhMy1jOWE4LTRlN2YtYTdiOS00N2U1ZjFkZjNkODMYACAAKAAwhPeOrdoyOIC7jq3aMkCAu46t2jJKHENWTmJrWGpRSVJkcTBVUEhvL1QyTjk1WGM4VT1aICIe/9hmbTU3NU56cjJDYTBXcWIxMkVxRlBvQ29iR1k9ZeggWyTCPgJgBRKtAQgdEqgBChwrSDMzem1oMGRNQkxtaDhvYTlrZmI3dS9VS0k9EiQ5NDk1NjFhNi0yYzU5LTQ4M2YtOTgxMi01ZWI0ZWI3MWRjNDkYACAAKAAwn8/IqscyOLvQnYGCMkC70J2BgjJKHHU1NzFRaTlMUUM1TUN1OVJicmNsWGZNczdyQT1aHyId+2R1NDR2c2RlRmJ6Uk5xVFdqdDRlZmNUNXRkMD1l2K+wAsI+AmAFEq0BCBkSqAEKHGZuWkczZVEwaDU2ZnZVQmhpbGlweUhDbHBDTT0SJDc0YzVlMTFlLTJmMmQtNDk1OS1hMGQzLTk1MWMyMjY5NGNlZhgAIAAoADClg/r1hDI4/6rWo/4xQP+q1qP+MUocS3dDcVFjKzV6VUs0SWlydUIxRkxMcHdkcnRJPVofIh2yNnAvVE5UbXVJZnJEOHhUNEZQNEVFYUxPOGFjPWXBF2pFwj4CYAUSrgEIIxKpAQocNDlLQ3BWRVhFeGdMczZsVndDcEl2N0czMWFFPRIkMDdjNzU0Y2ItZGY3Yy00MDczLTkyODAtMmZjODk0ZjdmODQ4GAAgACgAMNqVoK7aMjj5lqCu2jJA+ZagrtoyShxlYWQxcTNnZzhibTFNWHNuK2FGZzBSazJhajQ9WiAiHv/sTWdNQitZbThiMnVYKzVQcHF6ZWRSV2syTlZjPWXoIFskwj4CYAUSrQEIEBKoAQocMGM2ZTVwVHUrLy9jU1FyVE10L0ZuN2JiRDNrPRIkZThmOGJlMDYtYjg1OC00OWYwLTlhOWYtYWYxNWUzYTEzYjIxGAAgACgAMNKEhM7zMjivloTO8zJAr5aEzvMyShw0QXJTWHluYVk5bFVOek4zSW0xTEhzS0laUGM9Wh8iHf8rZDE5Y01DYzdRbytaM3V2SStRZjljV04rekU9ZQAAAADCPgJgBRKsAQgYEqcBChxQMWgwdzJpNDJZUHVjVXFNOGJVblcwQkV3dG89EiQ1OWJiYmY4MC04NTIwLTQ0MDYtODQ3MS04MTExY2YzZGNlODEYACAAKAAw7bu82t8yOLDJ++/9MUCwyfvv/TFKHHNKWC9rR2RMMTZtaGdPZmNOTEZGOW1EVFZoOD1aHiIcZHBaMElOZVNyNEVnekVKb2xOVmRmNjFXeDY0PWVytl5Awj4CYAUSrQEIFRKoAQocT3ZnckFSOW4xaU1XS2hIa1ZZZE9TSTVpczI4PRIkMTBlNTkwN2YtMTViMi00MDdiLWI4MDEtZTFiNjFjMjAwYmI2GAAgACgAMKPjoZz0MjiT5aGc9DJAk+WhnPQyShxSQWdCZ2JKNnJMUkZEczIxMXZJTVRlbjRCR3c9Wh8iHb12Vjh0K051eEpSdkI1NldMa3pWUlFYR0xiRWc9ZTyjTSzCPgJgBRKsAQgUEqcBChxmdFRkSHdUdGMzQjJwMExIS3BNUDFXaDVoMkk9EiRkZDFkMWY5Zi1lMjA0LTQzOTctODRkYy0zMzg3NmZkODgyNjUYACAAKAAw5I/bg/QyOOaR24P0MkDmkduD9DJKHDZoSHdLTnVDbDhIbE1XbVVBUFprcnovSFBTRT1aHiIcem1YN3p1M1pseFVyb1MySjNzS3VPcTJIU2tJPWUbFlEvwj4CYAUSrQEIEhKoAQocWW1Za0o4RDBaVjFRVmtIMnAvQ0luTGNlYVBvPRIkYTQ0NGQzZWQtMDIwNC00OTAzLWFkMTUtMjE1YTk1ZjBmMGU5GAAgACgAMNSEhM7zMjj9loTO8zJA/ZaEzvMyShw3Z3VuTzhpNEovMEFkM2V6TldkNVlZQ3RlcWc9Wh8iHdNMelZ5dGVROXZ6MjlWbGp6ekNBNmF2ajh1ZVE9ZQAAAADCPgJgABKtAQgNEqgBChxPdUR4ZDhBaGpUNkpUc1hpL0daVE1VN3d4VUU9EiQyYTNiNDk4OS04Zjg1LTQ5NjMtOGM2Mi1mYTMzNTA3MTM5MTcYACAAKAAwz4SEzvMyOLSVhM7zMkC0lYTO8zJKHDk5TXZlaXpnTFZ4UUhXTmRhMkFEaWZOaDUvWT1aHyId+01tSUJBVWJJTE81MDdoRUxXRDl6Rk1yYVp5ND1lAAAAAMI+AmAFEq0BCBESqAEKHEJRa0wvK1R1WW02NU5HaEhkVnEvMGg4RlI4WT0SJDExNTI4ODVmLWRlYjUtNDA3Zi1iZjQyLTRjZDJiNmFmNjA4ZBgAIAAoADDThITO8zI41ZaEzvMyQNWWhM7zMkocYlRHYWRzbVFjcHZIY3JZQ1I2WkYrOG5tNHZZPVofIh3/TWROV3dpSHhVem5HeER0ZlQ4K1pYTE12U25jPWUAAAAAwj4CYAUSrQEIIBKoAQocYTM3UUVXWVBueEc5MmdnWmMyTmpkdUlWMjg4PRIkYmJkZmQ1ZTUtM2Q0YS00ODdlLTg0YjYtZjMzYzIxM2QxYTg3GAAgACgAMMul0rOvMjiNp9KzrzJAjafSs68yShxaT1RKZW5iVDkxcTdhNFBHQzd2bjc3Z3RyMGs9Wh8iHf9jLzk5RStPckhreFA0dHhwSFVtbExOVTVmaDQ9ZUKVjnbCPgJgBRKtAQgfEqgBChxiZFNHL1RwK1VGQi9SdlRENlBZaDlyMk8rV2M9EiRiYzNlOTk3Yy01Zjg2LTRmY2UtYTBhNi1kYzgxYzY5ZGRlNTMYACAAKAAwtLqUk68yOOW7lJOvMkDlu5STrzJKHFVaR3FxTmJPUzRKVDMwWTUxM2Q5Yko4cS9OMD1aHyId/kRiaUFBazBLSWdUak9DTWtSd3luUG84KzVCST1lQpWOdsI+AmAFEqwBCAgSpwEKHE9rKzR5QVdDMTd3Nmh2eFNFZGR1OC9EZWw2MD0SJDQxMjE3NDJiLTczZGItNDU1Yy05OTE4LTY2YzQzMzc5MTVkORgAIAAoADDKhITO8zI48ZKEzvMyQPGShM7zMkocWHFSdGY5cklDYUtaTFJGcGhod200ZjFIRmNrPVoeIhxjY2ZFRklHMVpWcXRYR1BsdmYybmhva3lnUlE9ZQAAAADCPgJgBRKtAQgPEqgBChxBeUtZOVM2QzNVVXR2NnEwaFdxU083ZmlsSEE9EiQ4MjE1MTdlOS1kZDY0LTQwYmQtOWEwNS00MDU3ZTZlYjI2ZTgYACAAKAAw0YSEzvMyOIKWhM7zMkCCloTO8zJKHERXbjY5YW1GSllqU2pqYU1yT1lwdDFveHJaZz1aHyId/kxSN3FHQUtQaGlhVnpxOXNBeUs2VHVtRkV2ST1lAAAAAMI+AmAFEq0BCA4SqAEKHHVubHI5eVlPNG1qbjFEM3FnYUZpc3ZQMDhjWT0SJDFlYjNjMmMwLWEwMWQtNGU3OS1iNjM2LTI5NDVhNWEyYjQ5YhgAIAAoADDQhITO8zI41JWEzvMyQNSVhM7zMkocWTh0S3hGa3hZeFRPMDVodmZUWUQ3b05GREZzPVofIh39RTF3TnBEQnZkK2RXUW55cVVzZXppY0FKdDBVPWUAAAAAwj4CYAUSrQEICxKoAQocaGRXejdhNmQ3TmZXMFBGMFhMMWZPN1pXOHBFPRIkODMwMzg2ZjktZGMzNS00Y2NhLTg2YjAtZGIxOGM0ZjFjNTMyGAAgACgAMM2EhM7zMjj4k4TO8zJA+JOEzvMyShxiV0lqK0xGS0JwMDJ6RER2VTRvZWd4V1pyeG89Wh8iHexrQ2dFOWtBLzFxRk9zczRtYXRuUkx5S3I4bkE9ZQAAAADCPgJgBRKtAQgcEqgBChxid1cxWTRRbnFuUGEySEVIamR3NVgzUlBBMzA9EiQxYjc4NDIwOC02MTQ4LTQ2ZTMtYTlkNC1mZWJmOWJlNzYxODUYACAAKAAwp4P69YQyOMr6zrj+MUDK+s64/jFKHFd5T3J3eEpYcnc2U2RuVHkyWHhwaUhEWllaST1aHyId9lFiTVRoNENKMmllTEdRK1g4Q0wyZVRYR1ROOD1lwRdqRcI+AmAFEq0BCBMSqAEKHFo3UVdnYXNadXZZWXBHZUZMQTFFSFN1VVpTcz0SJDUyODljNzg5LTIxNWEtNGE4Yi04ZDM5LWNhZDEzNjYyOTVjNRgAIAAoADDIhITO8zI4lJKEzvMyQJSShM7zMkoceEp2ZzdKTUFkeXhCMWVuRmlvQ25zdE9mcXZVPVofIh3pQWZ1WkVvMlZYOEJWL3RNclhGUmdkT09UYUIwPWUAAAAAwj4CYAASrQEIChKoAQocYjFJdjFOdlpSWGU2a3J3eGJoRkt0SjhvSWpnPRIkODE1OGIxMmQtYjA4Yy00ZTFmLThiM2UtN2Y0NGY3YTk3M2RlGAAgACgAMMyEhM7zMjjKk4TO8zJAypOEzvMyShxBS3ZyS3Y1ZG9jcmNqWVFPZndwTnFjZ2RGMlE9Wh8iHdhYMEMyTTh4R21WRWpIdE4wVmhyK0l5N2FDUEE9ZQAAAADCPgJgBRKsAQgXEqcBChxRT2kzYzk4SlFocTdkeGdJSmwwK0JrVjg4eGM9EiQwNjM5MTA4My02MTY1LTQ1NjQtYjM2Yy1jM2U1NzY2Mjg4ZDIYACAAKAAwoM/IqscyOLXlmo74MUC15ZqO+DFKHExYaFlSL2V6a3gxTU93dDFTVUt2Rkc2L08rVT1aHiIcTHkySStVa2xUSHloY1RpbU5VM29iaHdzTGRBPWXYr7ACwj4CYAUSjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZjg1OGRkYWQtZDBjOS01ZjVlLWFmMTItM2I2NjI0NGNkN2EyGAAgACgAMOm7iefTMTj2wYnn0zFA9sGJ59MxShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEq0BCB4SqAEKHEtpOEJOOHFmY0ttakc2Slc0U2VNR3haMFRMRT0SJDk4NTgxYjZhLTQ2ZjAtNDhhNS1hYjMwLWYwY2ZlNGYwYzk2OBgAIAAoADCig/r1hDI4k4j69YQyQJOI+vWEMkocZ2lnbCtUblRqUWs2MnBhNVIrVWpjcW0xUzVBPVofIh39WXVxeE1Mam9FelFJMTlIb3pXbWpQRmJJcnV3PWVP2/lfwj4CYAUSrQEICRKoAQocblFlVlNySjZHa0pKRGtHbDU0Qk16RUN5MHY0PRIkNDczMzQyMDUtZDQ5NS00ZjhhLWFiYzMtYmE1M2EwMjNhNGIyGAAgACgAMMuEhM7zMjiak4TO8zJAmpOEzvMyShxrVmoyUzZFQjNOV1dJdUl6WlpTMEh1d2dwMmM9Wh8iHbFXTnpmdUlYbU5sT0tuNWtkbmlHYktrelM5Wlk9ZQAAAADCPgJgBRKtAQgHEqgBChxzTzB6VElNaGdkYUVVaEYra1Y5ZVVmT01DQWc9EiQwNDkyMmFlNy1mZThjLTRjNzQtYWMyZC1hNjc5OThmZmU3MjEYACAAKAAwyYSEzvMyOMWShM7zMkDFkoTO8zJKHDZUU3JFVjh1QlRMdzNacWJ3WWdwQnhudksyND1aHyIdpkZTVlZZUG5tN1R4QXdUMlhHWnZlM0lUaVBObz1lAAAAAMI+AmAAEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDVlMjBkMGEwLTVkNmMtNTUwNC1iNjIyLTdhZWJkZWU3NmM4MRgAIAAoADDou4nn0zE41sGJ59MxQNbBiefTMUocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKsAQgGEqcBChxPMUlzTFdVNjRIM3p4cDg3S3F2dzJEMEM1QXc9EiQ3OWQwYjI4YS0xZDQ3LTQwMWItYTY4MC01NDk4Y2I2YjM1NGQYACAAKAAw84ms5/cxOI+QrOf3MUCPkKzn9zFKHE5DYVV4Q013cWVnTkxkelZxYklyM2pWV0cvZz1aHiIcTURqc25CSExHRmlsTlphMW5BOGFMZCtzSTNJPWUAAAAAwj4CYAUSrQEIDBKoAQocQk96SktnWllHQnhSczJjbURLVHRzeHFmSW9vPRIkZWRiNDUyN2MtNzMzZi00NjJkLWE2NGQtOWJlZjU2MjA5YmQ2GAAgACgAMM6EhM7zMjiYlYTO8zJAmJWEzvMyShxYZE5GRWNyZm1rdmljOTBwdzEzVGF1bVBLLzg9Wh8iHfZNRDBQRHUzUzg1dkJTNVljbDRlbVlOeVdJR009ZQAAAADCPgJgBRKtAQgWEqgBChx5bmQzZmx4MEoyVEFIRmtGbXBMd05adVlTNFU9EiQ0YzNiMWNiZi1jZWE2LTRkZTctYTY1Yi00ODRhNWRkY2RmY2MYACAAKAAw+/2Un/QyOLn/lJ/0MkC5/5Sf9DJKHFRlaWNLREw0VjYrMGlnZ2pMY1JLclUycWhmVT1aHyId3kVOTlRqazVsdkwya0FRMTdLcEs1RURldVRpOD1lioDZF8I+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDliOTA0NTM5LWY5YWYtNWE3YS04OTdhLWJjMmU1YTFhMDkxMhgAIAAoADDuu4nn0zE4t8KJ59MxQLfCiefTMUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}

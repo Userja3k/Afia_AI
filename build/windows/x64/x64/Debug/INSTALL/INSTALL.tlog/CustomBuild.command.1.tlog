@@ -1,0 +1,10 @@
+^D:\PROJECT\AFIA_AI PROJECT\PROJECT\BUILD\WINDOWS\X64\CMAKEFILES\65D34B1128C9CC360209DBF0E30245DE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

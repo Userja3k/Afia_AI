@@ -1,0 +1,11 @@
+numpy==1.26.3
+pandas==2.2.0
+scikit-learn==1.4.0
+torch==2.2.0
+torchvision==0.17.0
+onnx==1.15.0
+skl2onnx==1.16.0
+opencv-python==4.9.0.80
+pillow==10.2.0
+matplotlib==3.8.2
+seaborn==0.13.1

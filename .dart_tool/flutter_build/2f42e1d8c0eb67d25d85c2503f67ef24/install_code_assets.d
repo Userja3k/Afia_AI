@@ -1,0 +1,1 @@
+ D:\\Project\\Afia_Ai\ Project\\project\\.dart_tool\\flutter_build\\2f42e1d8c0eb67d25d85c2503f67ef24\\native_assets.json: 

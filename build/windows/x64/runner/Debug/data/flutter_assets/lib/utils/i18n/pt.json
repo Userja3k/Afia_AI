@@ -1,0 +1,119 @@
+{
+  "welcome": {
+    "title": "BEM-VINDO AO",
+    "subtitle": "O que você quer verificar hoje?",
+    "malaria": {
+      "title": "Teste de Malária",
+      "problem": "Na África, a malária continua sendo uma das principais causas de mortalidade infantil. Em áreas remotas, o acesso limitado aos cuidados de saúde e o diagnóstico tardio agravam os casos.",
+      "solution": "AfiaAI permite o diagnóstico precoce da malária através da análise de sintomas por inteligência artificial, possibilitando uma intervenção rápida."
+    },
+    "skin": {
+      "title": "Detecção de Pele",
+      "problem": "As doenças de pele afetam milhões de africanos, mas a falta de dermatologistas e o estigma frequentemente atrasam as consultas.",
+      "solution": "Nossa tecnologia de análise de imagem identifica rapidamente as condições comuns da pele e recomenda as ações apropriadas."
+    }
+  },
+  "malaria": {
+    "title": "Teste de Malária",
+    "info": {
+      "title": "Informações Pessoais",
+      "name": "Nome (opcional)",
+      "age": "Idade",
+      "age_required": "Por favor, insira sua idade",
+      "age_invalid": "Idade inválida",
+      "gender": "Gênero",
+      "gender_required": "Por favor, selecione seu gênero",
+      "male": "Masculino",
+      "female": "Feminino"
+    },
+    "symptoms": {
+      "common": {
+        "title": "Sintomas Comuns"
+      },
+      "severe": {
+        "title": "Sintomas Graves"
+      },
+      "fever": "Você tem febre?",
+      "temperature": "Temperatura corporal",
+      "headache": "Você tem dores de cabeça?",
+      "fatigue": "Você sente fadiga intensa?",
+      "hallucinations": "Você tem alucinações?",
+      "vomiting": "Você tem vômitos?",
+      "confusion": "Você tem confusão?",
+      "difficulty_breathing": "Você tem dificuldade para respirar?"
+    },
+    "extra": {
+      "photo": {
+        "title": "Foto (opcional)",
+        "take": "Tirar uma foto"
+      },
+      "audio": {
+        "title": "Gravação de Voz",
+        "description": "Descreva seus sintomas falando por 30 segundos",
+        "start": "Iniciar gravação",
+        "stop": "Parar gravação",
+        "recorded": "Gravação concluída"
+      }
+    },
+    "result": {
+      "title": "Resultado do Diagnóstico",
+      "severity": "Gravidade",
+      "recommendations": "Recomendações",
+      "nearby_hospitals": "Hospitais Próximos"
+    }
+  },
+  "skin": {
+    "take_photo": "Tirar uma foto",
+    "title": "Análise da Pele",
+      "photo": {
+        "title": "Foto da área afetada",
+        "camera": "Câmera",
+        "gallery": "Galeria",
+        "required": "Por favor, tire uma foto"
+      },
+      "info": {
+        "title": "Informações Adicionais",
+        "duration": "Há quanto tempo você tem isso?",
+        "duration_required": "Por favor, selecione uma duração",
+        "duration_recent": "Menos de 24h",
+        "duration_week": "Uma semana",
+        "duration_month": "Um mês ou mais",
+        "itching": "Você tem coceira?",
+        "pain": "Você sente dor?",
+        "recent_change": "Houve mudanças recentes?"
+      },
+      "result": {
+        "title": "Resultado da Análise",
+        "confidence": "Confiança",
+        "severity": "Gravidade",
+        "recommendations": "Recomendações",
+        "urgent_warning": "Consulta dermatológica urgente recomendada",
+        "disclaimer": {
+          "title": "Aviso Médico",
+          "text": "Este diagnóstico é fornecido apenas para fins informativos. Sempre consulte um profissional de saúde para um diagnóstico definitivo."
+        }
+      }
+    },
+    "settings": {
+      "title": "Configurações",
+      "language": "Idioma",
+      "theme": "Tema escuro",
+      "textSize": "Tamanho do texto",
+      "rate": "Avaliar o aplicativo",
+      "rating_thanks": "Obrigado pela sua avaliação de {rating} estrelas!",
+      "report": "Reportar um problema",
+      "report_hint": "Descreva o problema que você encontrou...",
+      "about": "Sobre",
+      "about_description": "AfiaAI usa inteligência artificial para facilitar o diagnóstico médico precoce na África."
+    },
+    "common": {
+      "next": "Próximo",
+      "analyze": "Analisar",
+      "back_home": "Voltar ao início",
+      "cancel": "Cancelar",
+      "send": "Enviar",
+      "loading": "Carregando...",
+      "error": "Erro",
+      "success": "Sucesso"
+    }
+}

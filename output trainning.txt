@@ -1,0 +1,364 @@
+PS D:\Project\Afia_Ai Project\project> where .venv\Scripts\python.exe
+PS D:\Project\Afia_Ai Project\project> cd ai_training
+PS D:\Project\Afia_Ai Project\project\ai_training> cd malaria
+PS D:\Project\Afia_Ai Project\project\ai_training\malaria> python data_preparation.py
+D:\Project\Afia_Ai Project\project\ai_training\malaria\data_preparation.py:1: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+Dataset créé avec 3000 échantillons
+Distribution des classes:
+severity
+0    1000
+2    1000
+Name: count, dtype: int64
+
+Premiers échantillons:
+   temperature  fievre  maux_tete  fatigue  hallucinations  vomissements  severity
+0    39.508468       1          1        1               0             1         1
+1    40.374253       1          1        1               0             1         2
+2    38.972074       1          1        1               0             1         1
+2    38.972074       1          1        1               0             1         1
+3    37.680241       1          1        1               1             1         2
+4    40.158768       1          1        1               1             1         2
+PS D:\Project\Afia_Ai Project\project\ai_training\malaria> pip install pyarrow
+PS D:\Project\Afia_Ai Project\project\ai_training\malaria> pip install pyarrow
+Collecting pyarrow
+  Downloading pyarrow-20.0.0-cp311-cp311-win_amd64.whl.metadata (3.4 kB)
+Downloading pyarrow-20.0.0-cp311-cp311-win_amd64.whl (25.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.8/25.8 MB 659.3 kB/s eta 0:00:00
+Installing collected packages: pyarrow
+Successfully installed pyarrow-20.0.0
+PS D:\Project\Afia_Ai Project\project\ai_training\malaria> python data_preparation.py
+Dataset créé avec 3000 échantillons
+Distribution des classes:
+severity
+0    1000
+1    1000
+2    1000
+Name: count, dtype: int64
+
+   temperature  fievre  maux_tete  fatigue  hallucinations  vomissements  severity
+0    37.812356       0          0        0               0             0         0
+1    38.366098       1          1        1               0             0         1
+2    36.837253       0          0        0               0             0         0
+3    39.369145       1          1        1               0             1         2
+4    36.941730       0          0        0               0             0         0
+PS D:\Project\Afia_Ai Project\project\ai_training\malaria> python train.py
+🚀 Démarrage de l'entraînement du modèle paludisme
+🔄 Chargement des données...
+📊 Données d'entraînement: (2400, 6)
+📊 Données de test: (600, 6)
+🔄 Normalisation des données...
+🤖 Entraînement du modèle...
+📈 Évaluation du modèle...
+Score d'entraînement: 0.9600
+Score de test: 0.9217
+
+📋 Rapport de classification:
+                  precision    recall  f1-score   support
+
+          Normal       1.00      1.00      1.00       200
+Paludisme Simple       0.86      0.91      0.89       200
+Paludisme Sévère       0.90      0.85      0.88       200
+
+        accuracy                           0.92       600
+       macro avg       0.92      0.92      0.92       600
+    weighted avg       0.92      0.92      0.92       600
+
+
+🔢 Matrice de confusion:
+[[200   0   0]
+ [  0 182  18]
+ [  0  29 171]]
+
+🎯 Importance des caractéristiques:
+          feature  importance
+1          fievre    0.354106
+0     temperature    0.257079
+4  hallucinations    0.239543
+5    vomissements    0.062817
+3         fatigue    0.047560
+✅ Test ONNX réussi. Prédiction: [2]
+🎉 Entraînement terminé avec succès!
+PS D:\Project\Afia_Ai Project\project\ai_training\malaria> cd..
+PS D:\Project\Afia_Ai Project\project\ai_training> cd..
+PS D:\Project\Afia_Ai Project\project> cd ai_training
+PS D:\Project\Afia_Ai Project\project\ai_training> cd skin
+PS D:\Project\Afia_Ai Project\project\ai_training\skin> python data_preparation.py
+🚀 Préparation du dataset dermatologique
+✅ eczema: 4 images distribuées
+✅ psoriasis: 3 images distribuées
+✅ acne: 3 images distribuées
+✅ melanome: 3 images distribuées
+🔄 Augmentation du dataset...
+✅ Augmentation terminée pour eczema
+✅ Augmentation terminée pour psoriasis
+✅ Augmentation terminée pour acne
+✅ Augmentation terminée pour melanome
+📊 Validation du dataset:
+  train/eczema: 8 images
+  train/psoriasis: 8 images
+  train/acne: 8 images
+  train/melanome: 8 images
+  Total train: 32 images
+  val/eczema: 1 images
+  val/psoriasis: 0 images
+  val/acne: 0 images
+  val/melanome: 0 images
+  Total val: 1 images
+  test/psoriasis: 1 images
+  test/acne: 1 images
+  test/melanome: 1 images
+  Total test: 4 images
+📈 Total général: 37 images
+✅ Dataset préparé avec succès!
+PS D:\Project\Afia_Ai Project\project\ai_training\skin> python train.py
+🚀 Démarrage de l'entraînement du modèle dermatologique
+📊 Préparation des data loaders...
+Traceback (most recent call last):
+  File "D:\Project\Afia_Ai Project\project\ai_training\skin\train.py", line 280, in <module>
+    train_loader, val_loader, test_loader, class_names = prepare_data_loaders(data_dir)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\Afia_Ai Project\project\ai_training\skin\train.py", line 56, in prepare_data_loaders
+    val_dataset = datasets.ImageFolder(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\datasets\folder.py", line 309, in __init__
+    super().__init__(
+  File "C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\datasets\folder.py", line 145, in __init__
+    samples = self.make_dataset(self.root, class_to_idx, extensions, is_valid_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\datasets\folder.py", line 102, in make_dataset
+    raise FileNotFoundError(msg)
+FileNotFoundError: Found no valid file for the classes acne, melanome, psoriasis. Supported extensions are: .jpg, .jpeg, .png, .ppm, .bmp, .pgm, .tif, .tiff, .webp
+PS D:\Project\Afia_Ai Project\project\ai_training\skin>
+
+                                                        python train.py
+🚀 Démarrage de l'entraînement du modèle dermatologique
+📊 Préparation des data loaders...
+📋 Classes détectées: ['acne', 'eczema', 'melanome', 'psoriasis']
+📊 Taille du dataset d'entraînement: 32
+📊 Taille du dataset de validation: 4
+📊 Taille du dataset de test: 4
+🤖 Création du modèle...
+C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/mobilenet_v2-b0353104.pth" to C:\Users\israe/.cache\torch\hub\checkpoints\mobilenet_v2-b0353104.pth
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13.6M/13.6M [00:13<00:00, 1.09MB/s]
+🏋️ Entraînement du modèle...
+🖥️ Utilisation du device: cpu
+
+📅 Epoch 1/15
+------------------------------
+Batch 0/1, Loss: 1.4022
+Train Loss: 1.4022, Train Acc: 34.38%
+Val Loss: 0.9499, Val Acc: 75.00%
+✅ Nouveau meilleur modèle sauvegardé (Val Acc: 75.00%)
+
+📅 Epoch 2/15
+------------------------------
+Batch 0/1, Loss: 0.8525
+Train Loss: 0.8525, Train Acc: 96.88%
+Val Loss: 0.4534, Val Acc: 100.00%
+Traceback (most recent call last):
+  File "D:\Project\Afia_Ai Project\project\ai_training\skin\train.py", line 292, in <module>
+    model, train_losses, val_accuracies = train_model(
+                                          ^^^^^^^^^^^^
+  File "D:\Project\Afia_Ai Project\project\ai_training\skin\train.py", line 164, in train_model
+    torch.save(model.state_dict(), 'best_skin_model.pth')
+  File "C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: File best_skin_model.pth cannot be opened.
+PS D:\Project\Afia_Ai Project\project\ai_training\skin> python train.py
+🚀 Démarrage de l'entraînement du modèle dermatologique
+📊 Préparation des data loaders...
+📋 Classes détectées: ['acne', 'eczema', 'melanome', 'psoriasis']
+📊 Taille du dataset d'entraînement: 32
+📊 Taille du dataset de validation: 4
+📊 Taille du dataset de test: 4
+🤖 Création du modèle...
+Downloading: "https://download.pytorch.org/models/mobilenet_v2-7ebf99e0.pth" to C:\Users\israe/.cache\torch\hub\checkpoints\mobilenet_v2-7ebf99e0.pth
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13.6M/13.6M [01:00<00:00, 236kB/s]
+🏋️ Entraînement du modèle...
+🖥️ Utilisation du device: cpu
+
+📅 Epoch 1/15
+------------------------------
+Batch 0/1, Loss: 1.4023
+Train Loss: 1.4023, Train Acc: 28.12%
+Val Loss: 1.2795, Val Acc: 75.00%
+✅ Nouveau meilleur modèle sauvegardé (Val Acc: 75.00%)
+
+📅 Epoch 2/15
+------------------------------
+Batch 0/1, Loss: 1.1530
+Train Loss: 1.1530, Train Acc: 93.75%
+Val Loss: 1.1182, Val Acc: 75.00%
+
+📅 Epoch 3/15
+------------------------------
+Batch 0/1, Loss: 0.8757
+Train Loss: 0.8757, Train Acc: 100.00%
+Val Loss: 0.9145, Val Acc: 75.00%
+
+📅 Epoch 4/15
+------------------------------   
+Batch 0/1, Loss: 0.5764
+Train Loss: 0.5764, Train Acc: 100.00%
+Val Loss: 0.6894, Val Acc: 75.00%
+
+📅 Epoch 5/15
+------------------------------
+Batch 0/1, Loss: 0.3068
+Train Loss: 0.3068, Train Acc: 100.00%
+Val Loss: 0.4752, Val Acc: 75.00%
+
+📅 Epoch 6/15
+------------------------------
+Batch 0/1, Loss: 0.1405
+Train Loss: 0.1405, Train Acc: 100.00%
+Val Loss: 0.2890, Val Acc: 100.00%
+✅ Nouveau meilleur modèle sauvegardé (Val Acc: 100.00%)
+
+📅 Epoch 7/15
+------------------------------
+Batch 0/1, Loss: 0.0554
+Train Loss: 0.0554, Train Acc: 100.00%
+Val Loss: 0.1570, Val Acc: 100.00%
+
+📅 Epoch 8/15
+------------------------------
+Batch 0/1, Loss: 0.0257
+Train Loss: 0.0257, Train Acc: 100.00%
+Val Loss: 0.1370, Val Acc: 100.00%
+
+📅 Epoch 9/15
+------------------------------
+Batch 0/1, Loss: 0.0205
+Train Loss: 0.0205, Train Acc: 100.00%
+Val Loss: 0.1199, Val Acc: 100.00%
+
+📅 Epoch 10/15
+------------------------------
+Batch 0/1, Loss: 0.0246
+Train Loss: 0.0246, Train Acc: 100.00%
+Val Loss: 0.1071, Val Acc: 100.00%
+
+📅 Epoch 11/15
+------------------------------
+Batch 0/1, Loss: 0.0170
+Train Loss: 0.0170, Train Acc: 100.00%
+Val Loss: 0.1004, Val Acc: 100.00%
+
+📅 Epoch 12/15
+------------------------------
+Batch 0/1, Loss: 0.0215
+Train Loss: 0.0215, Train Acc: 100.00%
+Val Loss: 0.0965, Val Acc: 100.00%
+
+📅 Epoch 13/15
+------------------------------
+Batch 0/1, Loss: 0.0149
+Train Loss: 0.0149, Train Acc: 100.00%
+Val Loss: 0.0885, Val Acc: 100.00%
+
+📅 Epoch 14/15
+------------------------------
+Batch 0/1, Loss: 0.0150
+Train Loss: 0.0150, Train Acc: 100.00%
+Val Loss: 0.0833, Val Acc: 100.00%
+
+📅 Epoch 15/15
+------------------------------
+Batch 0/1, Loss: 0.0117
+Train Loss: 0.0117, Train Acc: 100.00%
+Val Loss: 0.0816, Val Acc: 100.00%
+📈 Évaluation finale...
+
+📋 Rapport de classification:
+C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\israe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+        acne       1.00      1.00      1.00         1
+      eczema       0.33      1.00      0.50         1
+    melanome       0.00      0.00      0.00         1
+   psoriasis       0.00      0.00      0.00         1
+
+    accuracy                           0.50         4
+   macro avg       0.33      0.50      0.38         4
+weighted avg       0.33      0.50      0.38         4
+
+
+🔢 Matrice de confusion:
+[[1 0 0 0]
+ [0 1 0 0]
+ [0 1 0 0]
+   macro avg       0.33      0.50      0.38         4
+weighted avg       0.33      0.50      0.38         4
+
+
+🔢 Matrice de confusion:
+[[1 0 0 0]
+ [0 1 0 0]
+   macro avg       0.33      0.50      0.38         4
+weighted avg       0.33      0.50      0.38         4
+
+
+🔢 Matrice de confusion:
+[[1 0 0 0]
+ [0 1 0 0]
+ [0 1 0 0]
+ [0 1 0 0]]
+
+🎯 Précision globale: 0.5000
+🔄 Export vers ONNX...
+   macro avg       0.33      0.50      0.38         4
+weighted avg       0.33      0.50      0.38         4
+
+
+🔢 Matrice de confusion:
+[[1 0 0 0]
+ [0 1 0 0]
+ [0 1 0 0]
+ [0 1 0 0]]
+   macro avg       0.33      0.50      0.38         4
+weighted avg       0.33      0.50      0.38         4
+
+
+
+🔢 Matrice de confusion:
+[[1 0 0 0]
+ [0 1 0 0]
+🔢 Matrice de confusion:
+[[1 0 0 0]
+ [0 1 0 0]
+[[1 0 0 0]
+ [0 1 0 0]
+ [0 1 0 0]
+ [0 1 0 0]]
+
+🎯 Précision globale: 0.5000
+🔄 Export vers ONNX...
+✅ Modèle exporté: ../models/skin.onnx
+✅ Métadonnées sauvegardées: ../models/skin_metadata.json
+🧪 Test du modèle ONNX...
+✅ Test ONNX réussi. Shape de sortie: (1, 4)
+🎉 Entraînement terminé! Précision finale: 0.5000
+PS D:\Project\Afia_Ai Project\project\ai_training\skin>
