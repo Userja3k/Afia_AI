@@ -148,3 +148,29 @@ uvicorn backend.main:app --host 0.0.0.0 --port $PORT
 8. Les fichiers statiques et les uploads sont servis depuis le répertoire `static`.
 
 9. Après le déploiement, vous pouvez accéder à la racine de l'API à `/` et à la documentation à `/docs`.
+
+---
+
+## 🚀 Déploiement du backend sur Railway
+
+Pour déployer le backend sur Railway, suivez ces étapes :
+
+1. Créez un compte Railway et un nouveau projet.
+
+2. Connectez votre dépôt GitHub contenant ce projet à Railway.
+
+3. Railway détectera automatiquement le fichier `Procfile` et utilisera la commande de démarrage spécifiée.
+
+4. Configurez la commande de build :
+
+```
+pip install -r requirements.txt
+```
+
+5. Ajoutez les variables d'environnement nécessaires, ou utilisez le fichier `.env.example` comme référence.
+
+6. Assurez-vous que les fichiers modèles ONNX sont inclus dans le dépôt ou accessibles par le backend.
+
+7. Les fichiers statiques et les uploads sont servis depuis le répertoire `static`.
+
+8. Après le déploiement, vous pouvez accéder à la racine de l'API à `/` et à la documentation à `/docs`.
