@@ -116,3 +116,35 @@ uvicorn main:app --reload
 
 ## 🌟 Contribution
 Projet open-source développé pour le Google AI Hackathon 2025.
+
+---
+
+## 🚀 Déploiement du backend sur Render
+
+Pour déployer le backend sur Render, suivez ces étapes :
+
+1. Créez un compte Render et un nouveau service Web.
+
+2. Connectez votre dépôt GitHub contenant ce projet à Render.
+
+3. Configurez la commande de build :
+
+```
+pip install -r requirements.txt
+```
+
+4. Configurez la commande de démarrage :
+
+```
+uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+```
+
+5. Ajoutez les variables d'environnement nécessaires, ou utilisez le fichier `.env.example` comme référence.
+
+6. Render détectera automatiquement le fichier `Procfile` et utilisera la commande de démarrage spécifiée.
+
+7. Assurez-vous que les fichiers modèles ONNX sont inclus dans le dépôt ou accessibles par le backend.
+
+8. Les fichiers statiques et les uploads sont servis depuis le répertoire `static`.
+
+9. Après le déploiement, vous pouvez accéder à la racine de l'API à `/` et à la documentation à `/docs`.
