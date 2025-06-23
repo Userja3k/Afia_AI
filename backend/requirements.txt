@@ -22,4 +22,4 @@ onnx==1.15.0
 skl2onnx==1.16.0
 
 seaborn==0.13.1
-pyarrow==12.0.1
+pyarrow==19.0.0
