@@ -1,34 +1,40 @@
-2025/06/23-09:39:56.202 4a20 Reusing MANIFEST C:\Users\israe\AppData\Local\Temp\flutter_tools.45ef4b7\flutter_tools_chrome_device.efe4d6b1\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2025/06/23-09:39:56.204 4a20 Recovering log #52
-2025/06/23-09:39:56.204 4a20 Reusing old log C:\Users\israe\AppData\Local\Temp\flutter_tools.45ef4b7\flutter_tools_chrome_device.efe4d6b1\Default\EdgeCoupons/coupons_data.db/000052.log 
-2025/06/23-09:39:56.206 4a20 Delete type=0 #3
-2025/06/23-09:39:56.206 4a20 Delete type=0 #4
-2025/06/23-09:39:56.206 4a20 Delete type=0 #7
-2025/06/23-09:39:56.206 4a20 Delete type=2 #8
-2025/06/23-09:39:56.206 4a20 Delete type=0 #10
-2025/06/23-09:39:56.207 4a20 Delete type=2 #11
-2025/06/23-09:39:56.207 4a20 Delete type=0 #13
-2025/06/23-09:40:04.429 4a20 Delete type=2 #14
-2025/06/23-09:40:07.911 4a20 Delete type=0 #16
-2025/06/23-09:40:10.455 4a20 Delete type=2 #17
-2025/06/23-09:40:12.433 4a20 Delete type=0 #19
-2025/06/23-09:40:14.508 4a20 Delete type=2 #21
-2025/06/23-09:40:16.998 4a20 Delete type=0 #23
-2025/06/23-09:40:20.631 4a20 Delete type=2 #24
-2025/06/23-09:40:23.192 4a20 Delete type=0 #26
-2025/06/23-09:40:25.681 4a20 Delete type=2 #27
-2025/06/23-09:40:28.385 4a20 Delete type=0 #29
-2025/06/23-09:40:31.047 4a20 Delete type=2 #30
-2025/06/23-09:40:35.007 4a20 Delete type=0 #32
-2025/06/23-09:40:38.065 4a20 Delete type=2 #34
-2025/06/23-09:40:39.947 4a20 Delete type=0 #36
-2025/06/23-09:40:42.297 4a20 Delete type=2 #37
-2025/06/23-09:40:44.849 4a20 Delete type=0 #39
-2025/06/23-09:40:46.387 4a20 Delete type=2 #40
-2025/06/23-09:40:46.664 4a20 Delete type=0 #42
-2025/06/23-09:40:47.079 4a20 Delete type=2 #43
-2025/06/23-09:40:47.244 4a20 Delete type=0 #45
-2025/06/23-09:40:47.705 4a20 Delete type=0 #49
-2025/06/23-09:41:09.046 3170 Level-0 table #56: started
-2025/06/23-09:41:09.578 3170 Level-0 table #56: 672012 bytes OK
-2025/06/23-09:41:09.697 3170 Delete type=0 #52
+2025/06/23-21:15:01.253 392c Reusing MANIFEST C:\Users\israe\AppData\Local\Temp\flutter_tools.87d6bb94\flutter_tools_chrome_device.fcac2d9b\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/06/23-21:15:01.260 392c Recovering log #55
+2025/06/23-21:15:01.261 392c Reusing old log C:\Users\israe\AppData\Local\Temp\flutter_tools.87d6bb94\flutter_tools_chrome_device.fcac2d9b\Default\EdgeCoupons/coupons_data.db/000055.log 
+2025/06/23-21:15:01.279 392c Delete type=0 #3
+2025/06/23-21:15:01.279 392c Delete type=0 #4
+2025/06/23-21:15:01.279 392c Delete type=0 #7
+2025/06/23-21:15:01.279 392c Delete type=2 #8
+2025/06/23-21:15:01.279 392c Delete type=0 #10
+2025/06/23-21:15:01.279 392c Delete type=2 #11
+2025/06/23-21:15:01.280 392c Delete type=0 #13
+2025/06/23-21:15:05.308 392c Delete type=2 #14
+2025/06/23-21:15:07.306 392c Delete type=0 #16
+2025/06/23-21:15:08.963 392c Delete type=2 #17
+2025/06/23-21:15:11.425 392c Delete type=0 #19
+2025/06/23-21:15:16.487 392c Delete type=2 #21
+2025/06/23-21:15:19.229 392c Delete type=0 #23
+2025/06/23-21:15:22.794 392c Delete type=2 #24
+2025/06/23-21:15:24.260 392c Delete type=0 #26
+2025/06/23-21:15:24.641 392c Delete type=2 #27
+2025/06/23-21:15:24.735 392c Delete type=0 #29
+2025/06/23-21:15:24.776 392c Delete type=2 #30
+2025/06/23-21:15:24.963 392c Delete type=0 #32
+2025/06/23-21:15:25.593 392c Delete type=2 #34
+2025/06/23-21:15:27.395 392c Delete type=0 #36
+2025/06/23-21:15:29.960 392c Delete type=2 #37
+2025/06/23-21:15:30.126 392c Delete type=0 #39
+2025/06/23-21:15:30.199 392c Delete type=2 #40
+2025/06/23-21:15:30.223 392c Delete type=0 #42
+2025/06/23-21:15:30.231 392c Delete type=2 #43
+2025/06/23-21:15:30.248 392c Delete type=0 #45
+2025/06/23-21:15:30.249 392c Delete type=0 #49
+2025/06/23-21:15:30.288 392c Delete type=0 #52
+2025/06/23-21:16:15.299 2500 Level-0 table #59: started
+2025/06/23-21:16:15.880 2500 Level-0 table #59: 672009 bytes OK
+2025/06/23-21:16:15.931 2500 Delete type=0 #55
+2025/06/23-21:16:15.932 2500 Compacting 4@0 + 1@1 files
+2025/06/23-21:16:16.142 2500 Generated table #60@0: 4 keys, 671928 bytes
+2025/06/23-21:16:16.142 2500 Compacted 4@0 + 1@1 files => 671928 bytes
+2025/06/23-21:16:16.208 2500 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/23-21:16:16.208 2500 Delete type=2 #59
