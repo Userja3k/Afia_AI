@@ -40,6 +40,16 @@ class _ExtraDataPageState extends State<ExtraDataPage> {
     }
   }
 
+  Future<void> _pickFromGallery() async {
+    final XFile? photo = await _picker.pickImage(source: ImageSource.gallery);
+    if (photo != null) {
+      setState(() {
+        _image = File(photo.path);
+        widget.formData['image_path'] = photo.path;
+      });
+    }
+  }
+
   Future<void> _toggleRecording() async {
     if (_isRecording) {
       final path = await _audioService.stopRecording();
@@ -96,6 +106,12 @@ class _ExtraDataPageState extends State<ExtraDataPage> {
                 onPressed: _takePicture,
                 icon: const Icon(Icons.camera_alt),
                 label: Text(i18n.translate('malaria.extra.photo.take')),
+              ),
+              const SizedBox(height: 12),
+              ElevatedButton.icon(
+                onPressed: _pickFromGallery,
+                icon: const Icon(Icons.photo_library),
+                label: Text(i18n.translate('malaria.extra.photo.gallery')),
               ),
             ],
           ),

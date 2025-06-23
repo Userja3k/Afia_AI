@@ -21,7 +21,7 @@ class _SkinInputPageState extends State<SkinInputPage> {
   File? _image;
   final _picker = ImagePicker();
   final _formKey = GlobalKey<FormState>();
-  
+
   final Map<String, dynamic> formData = {
     'duree': '',
     'demangeaisons': false,
@@ -39,7 +39,8 @@ class _SkinInputPageState extends State<SkinInputPage> {
   }
 
   Future<void> _pickFromGallery() async {
-    final XFile? photo = await _picker.pickImage(source: ImageSource.gallery);
+    final XFile? photo =
+        await _picker.pickImage(source: ImageSource.gallery, imageQuality: 85);
     if (photo != null) {
       setState(() {
         _image = File(photo.path);
@@ -148,15 +149,18 @@ class _SkinInputPageState extends State<SkinInputPage> {
                       items: [
                         DropdownMenuItem(
                           value: 'recent',
-                          child: Text(i18n.translate('skin.info.duration_recent')),
+                          child:
+                              Text(i18n.translate('skin.info.duration_recent')),
                         ),
                         DropdownMenuItem(
                           value: 'semaine',
-                          child: Text(i18n.translate('skin.info.duration_week')),
+                          child:
+                              Text(i18n.translate('skin.info.duration_week')),
                         ),
                         DropdownMenuItem(
                           value: 'mois',
-                          child: Text(i18n.translate('skin.info.duration_month')),
+                          child:
+                              Text(i18n.translate('skin.info.duration_month')),
                         ),
                       ],
                       onChanged: (value) {
