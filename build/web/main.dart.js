@@ -46251,7 +46251,7 @@ BK(a){return this.arE(a)},
 arE(a){var s=0,r=A.L(t.a),q,p=2,o=[],n,m,l,k,j,i
 var $async$BK=A.H(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:p=4
-l=A.fA("http://localhost:8000/api/paludisme/diagnose",0,null)
+l=A.fA("https://afia-api.onrender.com/api/paludisme/diagnose",0,null)
 k=t.N
 k=A.aw(["Content-Type","application/json"],k,k)
 s=7
@@ -46281,7 +46281,7 @@ wk(a,b,c){return this.arF(a,b,c)},
 arF(a,b,c){var s=0,r=A.L(t.a),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$wk=A.H(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
-n=A.b2O("POST",A.fA("http://localhost:8000/api/skin/diagnose",0,null))
+n=A.b2O("POST",A.fA("https://afia-api.onrender.com/api/skin/diagnose",0,null))
 j=n.y
 i=A.aNR(new A.i2(A.aMn(a,t.Cm)))
 h=A.CM("application","octet-stream",null)
