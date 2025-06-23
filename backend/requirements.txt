@@ -16,7 +16,7 @@ soundfile==0.12.1
 pydub==0.25.1
 Librosa==0.10.1
 
-pandas==2.2.0
+
 scikit-learn==1.4.0
 torch==2.2.0
 torchvision==0.17.0
