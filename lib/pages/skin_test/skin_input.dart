@@ -113,22 +113,19 @@ class _SkinInputPageState extends State<SkinInputPage> {
                         ),
                       ),
                     const SizedBox(height: 16),
-                    Row(
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
-                        Expanded(
-                          child: ElevatedButton.icon(
-                            onPressed: _takePicture,
-                            icon: const Icon(Icons.camera_alt),
-                            label: Text(i18n.translate('skin.photo.camera')),
-                          ),
+                        ElevatedButton.icon(
+                          onPressed: _takePicture,
+                          icon: const Icon(Icons.camera_alt),
+                          label: Text(i18n.translate('skin.photo.camera')),
                         ),
-                        const SizedBox(width: 12),
-                        Expanded(
-                          child: ElevatedButton.icon(
-                            onPressed: _pickFromGallery,
-                            icon: const Icon(Icons.photo_library),
-                            label: Text(i18n.translate('skin.photo.gallery')),
-                          ),
+                        const SizedBox(height: 12),
+                        ElevatedButton.icon(
+                          onPressed: _pickFromGallery,
+                          icon: const Icon(Icons.photo_library),
+                          label: Text(i18n.translate('skin.photo.gallery')),
                         ),
                       ],
                     ),
