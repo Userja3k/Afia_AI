@@ -17,7 +17,7 @@ pydub==0.25.1
 Librosa==0.10.1
 
 
-torchvision==0.17.0
+torchvision==0.22.0
 onnx==1.15.0
 skl2onnx==1.16.0
 
