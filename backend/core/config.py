@@ -1,5 +1,7 @@
 from pydantic_settings import BaseSettings
+from pydantic import validator
 import os
+import json
 
 class Settings(BaseSettings):
     app_name: str = "AfiaAI Backend"
@@ -17,6 +19,17 @@ class Settings(BaseSettings):
     
     # CORS settings
     cors_origins: list = ["*"]
+
+    @validator("cors_origins", pre=True)
+    def parse_cors_origins(cls, v):
+        if isinstance(v, str):
+            if not v:
+                return ["*"]
+            try:
+                return json.loads(v)
+            except Exception:
+                return [v]
+        return v
     
     class Config:
         env_file = ".env"
