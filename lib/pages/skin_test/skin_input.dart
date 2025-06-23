@@ -28,7 +28,7 @@ class _SkinInputPageState extends State<SkinInputPage> {
     'douleur': false,
     'changement_recent': false,
   };
-
+/*
   Future<void> _takePicture() async {
     final XFile? photo = await _picker.pickImage(source: ImageSource.camera);
     if (photo != null) {
@@ -37,7 +37,7 @@ class _SkinInputPageState extends State<SkinInputPage> {
       });
     }
   }
-
+¨*/
   Future<void> _pickFromGallery() async {
     final XFile? photo =
         await _picker.pickImage(source: ImageSource.gallery, imageQuality: 85);
@@ -117,15 +117,9 @@ class _SkinInputPageState extends State<SkinInputPage> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         ElevatedButton.icon(
-                          onPressed: _takePicture,
-                          icon: const Icon(Icons.camera_alt),
-                          label: Text(i18n.translate('skin.photo.camera')),
-                        ),
-                        const SizedBox(height: 12),
-                        ElevatedButton.icon(
                           onPressed: _pickFromGallery,
                           icon: const Icon(Icons.photo_library),
-                          label: Text(i18n.translate('skin.photo.gallery')),
+                          label: const Text("Gallery"),
                         ),
                       ],
                     ),

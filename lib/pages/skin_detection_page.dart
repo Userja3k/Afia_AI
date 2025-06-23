@@ -29,7 +29,8 @@ class _SkinDetectionPageState extends State<SkinDetectionPage> {
 
   Future<void> _takePicture() async {
     if (kIsWeb) {
-      final XFile? photo = await _picker.pickImage(source: ImageSource.camera);
+      final XFile? photo = await _picker.pickImage(
+          source: ImageSource.gallery, imageQuality: 85);
       if (photo != null) {
         final bytes = await photo.readAsBytes();
         setState(() {
@@ -45,7 +46,8 @@ class _SkinDetectionPageState extends State<SkinDetectionPage> {
         ),
       );
     } else {
-      final XFile? photo = await _picker.pickImage(source: ImageSource.camera);
+      final XFile? photo = await _picker.pickImage(
+          source: ImageSource.gallery, imageQuality: 85);
       if (photo != null) {
         setState(() {
           _image = photo;
