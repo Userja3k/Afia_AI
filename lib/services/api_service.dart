@@ -4,7 +4,7 @@ import 'dart:typed_data';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:8000/api';
+  static const String baseUrl = 'https://afia-api.onrender.com/api';
 
   Future<Map<String, dynamic>> diagnoseMalaria(
       Map<String, dynamic> symptoms) async {
